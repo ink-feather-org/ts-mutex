@@ -1,0 +1,23 @@
+= @ink-feather-org/idb-mutex
+:icons:
+:y: &#x2705;
+:n: &#10060;
+
+https://ink-feather-org.github.io/ts-mutex/[Typedoc]
+
+This repository provides an IDB-Mutex.
+See the `@ink-feather-org/ts-mutex` package different implementations with differing guarantees.
+
+[cols="1,1,1"]
+|===
+|Name |SameTab |Webworkers
+
+|IDBMutex
+|{y}
+|{y} (probably)
+|===
+
+== IDBMutex
+
+The IDBMutex uses IndexedDb for its locking mechanism.
+It has external dependencies so its available as a standalone package `@ink-feather-org/idb-mutex`.

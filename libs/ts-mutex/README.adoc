@@ -1,0 +1,56 @@
+= @ink-feather-org/ts-mutex
+:icons:
+:y: &#x2705;
+:n: &#10060;
+
+https://ink-feather-org.github.io/ts-mutex/[Typedoc]
+
+This repository contains typescript mutex implementations that provide different guarantees.
+
+== Mutex
+
+The Mutex interface. Provides locking/unlocking functions.
+
+[cols="1,1,1"]
+|===
+|Name |SameTab |Webworkers
+
+|FakeMutex
+|{n}
+|{n}
+|NavigatorMutex
+|{y}
+|?
+|RAMMutex
+|{y}
+|{n}
+|IDBMutex
+|{y}
+|{y} (probably)
+|===
+
+== FakeMutex
+
+A Mutex implementation that provides NO guarantees.
+
+== NavigatorMutex
+
+A Mutex implementation that uses https://developer.mozilla.org/en-US/docs/Web/API/Navigator[the navigator api].
+May not be available on all browsers.
+
+== RAMMutex
+
+The RAMMutex stores its locks in static Map.
+
+== IDBMutex
+
+The IDBMutex uses IndexedDb for its locking mechanism.
+It has external dependencies so its available as a standalone package `@ink-feather-org/idb-mutex`.
+
+== MutexProxy
+
+Wraps a mutex implementation.
+
+== MutexFactory & MutexFactoryProxy
+
+Factory classes for mutex implementations.
