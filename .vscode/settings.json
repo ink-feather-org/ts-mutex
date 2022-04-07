@@ -1,5 +1,6 @@
 {
   "files.associations": {
-    "rush.json": "jsonc"
+    "rush.json": "jsonc",
+    "**/common/**/*.json": "jsonc"
   }
 }
