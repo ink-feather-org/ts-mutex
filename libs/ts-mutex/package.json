@@ -26,7 +26,8 @@
     "mutex",
     "promise",
     "async",
-    "lock"
+    "lock",
+    "webworker"
   ],
   "scripts": {
     "prepublishOnly": "pnpm run lint && pnpm run build && pnpm run docs && npm-multi-publish",

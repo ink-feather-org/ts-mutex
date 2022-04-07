@@ -27,6 +27,7 @@
     "promise",
     "async",
     "lock",
+    "webworker",
     "indexeddb"
   ],
   "scripts": {

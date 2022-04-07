@@ -3,6 +3,13 @@
 This monorepo hosts packages related to the ts-mutex package.
 You can find them in the `libs` folder.
 
+== https://ink-feather-org.github.io/ts-mutex/[Docs]
+
+== packages
+
+* https://github.com/ink-feather-org/ts-mutex/blob/gh-pages/libs/idb-mutex/README.adoc[idb-mutex README]
+* https://github.com/ink-feather-org/ts-mutex/blob/gh-pages/libs/ts-mutex/README.adoc[ts-mutex README]
+
 == Building
 
 After installing rush run:
