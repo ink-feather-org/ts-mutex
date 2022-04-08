@@ -3,7 +3,7 @@
 :y: &#x2705;
 :n: &#10060;
 
-https://ink-feather-org.github.io/ts-mutex/[Typedoc]
+https://ink-feather-org.github.io/ts-mutex/libs/ts-mutex/docs/[Typedoc]
 
 This repository contains typescript mutex implementations that provide different guarantees.
 

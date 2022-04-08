@@ -1,6 +1,6 @@
 # @ink-feather-org/ts-mutex
 
-[Typedoc](https://ink-feather-org.github.io/ts-mutex/)
+[Typedoc](https://ink-feather-org.github.io/ts-mutex/libs/ts-mutex/docs/)
 
 This repository contains typescript mutex implementations that provide different guarantees.
 

@@ -1,6 +1,6 @@
 # @ink-feather-org/ts-mutex
 
-[Typedoc](https://ink-feather-org.github.io/ts-mutex/)
+[Typedoc](https://ink-feather-org.github.io/ts-mutex/libs/idb-mutex/docs/)
 
 This repository contains an indexed db backed mutex implementation.
 
