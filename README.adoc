@@ -7,8 +7,11 @@ You can find them in the `libs` folder.
 
 == packages
 
-* https://github.com/ink-feather-org/ts-mutex/blob/gh-pages/libs/idb-mutex/README.adoc[idb-mutex README]
-* https://github.com/ink-feather-org/ts-mutex/blob/gh-pages/libs/ts-mutex/README.adoc[ts-mutex README]
+* ts-mutex
+  https://github.com/ink-feather-org/ts-mutex/blob/gh-pages/libs/ts-mutex/README.adoc[README]
+  https://ink-feather-org.github.io/ts-mutex/libs/ts-mutex/docs/[Typedoc]
+* idb-mutex https://github.com/ink-feather-org/ts-mutex/blob/gh-pages/libs/idb-mutex/README.adoc[README]
+  https://ink-feather-org.github.io/ts-mutex/libs/idb-mutex/docs/[Typedoc]
 
 == Building
 

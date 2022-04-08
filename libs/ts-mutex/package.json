@@ -17,7 +17,7 @@
     "url": "https://github.com/ink-feather-org/ts-mutex"
   },
   "name": "@ink-feather-org/ts-mutex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/feather-ink-mutex.js",
   "module": "dist/feather-ink-mutex.js",
   "sideEffects": false,
