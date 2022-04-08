@@ -43,7 +43,7 @@
     "build:bundle": "webpack",
     "build": "pnpm run build:bundle && pnpm run build:declarations",
     "docs": "pnpm typedoc",
-    "clean": "shx rm -rf dist"
+    "clean": "shx rm -rf dist docs"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
@@ -74,7 +74,8 @@
     "webpack-cli": "^4.9.2",
     "terser-webpack-plugin": "^5.3.1",
     "@ink-feather-org/ts-utils": "^1.0.11",
-    "@ink-feather-org/ts-mutex": "workspace:*"
+    "@ink-feather-org/ts-mutex": "workspace:*",
+    "@ink-feather-org/typedoc-plugin-asciidoctor": "1.0.5"
   },
   "dependencies": {
     "idb": "^7.0.1",
