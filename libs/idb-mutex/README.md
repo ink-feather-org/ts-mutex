@@ -1,4 +1,4 @@
-# @ink-feather-org/ts-mutex
+# @ink-feather-org/idb-mutex
 
 [Typedoc](https://ink-feather-org.github.io/ts-mutex/libs/idb-mutex/docs/)
 

@@ -17,7 +17,7 @@
     "url": "https://github.com/ink-feather-org/ts-mutex"
   },
   "name": "@ink-feather-org/idb-mutex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/feather-ink-idb-mutex.js",
   "module": "dist/feather-ink-idb-mutex.js",
   "sideEffects": false,
